@@ -21,7 +21,7 @@
 El Motoman MH6 es un robot versátil con un amplio alcance y alta velocidad, ideal para tareas como soldadura, manipulación de materiales y recubrimiento. Por otro lado, el ABB IRB 140 es un robot compacto con alta precisión y repetibilidad, adecuado para aplicaciones de ensamblaje, carga y descarga de máquinas y pulido.
 
 <p align="center">
-  <a href="url1"><img src="Images/TablaComparativa.jpg" width="200"></a>
+  <a href="url1"><img src="Images/TablaComparativa.jpg" height="400"></a>
 </p>
 
 Por otro lado, también hay un cambio en el espacio de trabajo de ambos robots
@@ -29,13 +29,13 @@ Por otro lado, también hay un cambio en el espacio de trabajo de ambos robots
 ### Motoman MH6.
 
 <p align="center">
-  <a href="url2"><img src="Images/EspacioMotomanMH6.png" width="200"></a>
+  <a href="url2"><img src="Images/EspacioMotomanMH6.png" height="300"></a>
 </p>
 
 ### ABB IRB 140
 
 <p align="center">
-  <a href="url3"><img src="Images/EspacioABBIRB140.png" width="200"></a>
+  <a href="url3"><img src="Images/EspacioABBIRB140.png" height="300"></a>
 </p>
 
 La información anteriormente mostrada fue extraida de :
@@ -57,7 +57,7 @@ La posición dependerá de la situación, en general se prefiere la segunda por 
 Los movimientos manuales en el Motoman MH6 se realizar de modo articular (moviendo cada articulación individualmente) o en modo cartesiano (trasladando o rotando el efector final en un sistema de coordenadas XYZ).
 
 <p align="center">
-  <a href="url5"><img src="Images/TeachPendant.jpg" width="200"></a>
+  <a href="url5"><img src="Images/TeachPendant.jpg" height="300"></a>
 </p>
 
 El procedimiento es el siguiente
