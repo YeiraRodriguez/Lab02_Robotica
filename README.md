@@ -21,7 +21,7 @@
 El Motoman MH6 es un robot versátil con un amplio alcance y alta velocidad, ideal para tareas como soldadura, manipulación de materiales y recubrimiento. Por otro lado, el ABB IRB 140 es un robot compacto con alta precisión y repetibilidad, adecuado para aplicaciones de ensamblaje, carga y descarga de máquinas y pulido.
 
 <p align="center">
-  <a href="url4"><img src="Images/TablaComparativa.png" width="200"></a>
+  <a href="url4"><img src="Images/TablaComparativa.jpg" width="200"></a>
 </p>
 
 Por otro lado, también hay un cambio en el espacio de trabajo de ambos robots
@@ -47,7 +47,7 @@ La información anteriormente mostrada fue extraida de :
 Las configuraciones de Home1 y Home2 son posiciones de inicio con ligeras variaciones. En el primero se dispone del robot completamente extendido, es decir, los ángulos de sus articulaciones son todas cero. Por otro lado, para home2 se encuentra un cambio en las articulaciones 2 y 3 con ángulos de 45° y -45° respectivamente. Esto permite una posición más compacta del robot. 
 
 <p align="center">
-  <a href="url4"><img src="Images/PosicionesHome.png" width="200"></a>
+  <a href="url4"><img src="Images/PosicionesHome.jpg" width="200"></a>
 </p>
 
 La posición dependerá de la situación, en general se prefiere la segunda por la reducción del espacio ocupado y los riesgos de colisión. La primera posición es más usada para casos de mantenimiento, es decir, es útil calibraciones y diagnósticos iniciales.
