@@ -26,13 +26,13 @@ El Motoman MH6 es un robot versátil con un amplio alcance y alta velocidad, ide
 
 Por otro lado, también hay un cambio en el espacio de trabajo de ambos robots
 
-# Motoman MH6.
+### Motoman MH6.
 
 <p align="center">
   <a href="url4"><img src="Images/EspacioMotomanMH6.png" width="200"></a>
 </p>
 
-# ABB IRB 140
+### ABB IRB 140
 
 <p align="center">
   <a href="url4"><img src="Images/EspacioABBIRB140.png" width="200"></a>
