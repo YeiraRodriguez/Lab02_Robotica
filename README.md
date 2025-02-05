@@ -21,7 +21,7 @@
 El Motoman MH6 es un robot versátil con un amplio alcance y alta velocidad, ideal para tareas como soldadura, manipulación de materiales y recubrimiento. Por otro lado, el ABB IRB 140 es un robot compacto con alta precisión y repetibilidad, adecuado para aplicaciones de ensamblaje, carga y descarga de máquinas y pulido.
 
 <p align="center">
-  <a href="url1"><img src="Images/TablaComparativa.jpg" height="400"></a>
+  <img src="Images/TablaComparativa.jpg" height="400">
 </p>
 
 Por otro lado, también hay un cambio en el espacio de trabajo de ambos robots
@@ -29,13 +29,13 @@ Por otro lado, también hay un cambio en el espacio de trabajo de ambos robots
 ### Motoman MH6.
 
 <p align="center">
-  <a href="url2"><img src="Images/EspacioMotomanMH6.png" height="300"></a>
+  <img src="Images/EspacioMotomanMH6.png" height="300">
 </p>
 
 ### ABB IRB 140
 
 <p align="center">
-  <a href="url3"><img src="Images/EspacioABBIRB140.png" height="300"></a>
+  <img src="Images/EspacioABBIRB140.png" height="300">
 </p>
 
 La información anteriormente mostrada fue extraida de :
@@ -47,7 +47,7 @@ La información anteriormente mostrada fue extraida de :
 Las configuraciones de Home1 y Home2 son posiciones de inicio con ligeras variaciones. En el primero se dispone del robot completamente extendido, es decir, los ángulos de sus articulaciones son todas cero. Por otro lado, para home2 se encuentra un cambio en las articulaciones 2 y 3 con ángulos de 45° y -45° respectivamente. Esto permite una posición más compacta del robot. 
 
 <p align="center">
-  <a href="url4"><img src="Images/PoscionesHome.jpg" width="200"></a>
+  <img src="Images/PoscionesHome.jpg" width="200">
 </p>
 
 La posición dependerá de la situación, en general se prefiere la segunda por la reducción del espacio ocupado y los riesgos de colisión. La primera posición es más usada para casos de mantenimiento, es decir, es útil calibraciones y diagnósticos iniciales.
@@ -57,7 +57,7 @@ La posición dependerá de la situación, en general se prefiere la segunda por 
 Los movimientos manuales en el Motoman MH6 se realizar de modo articular (moviendo cada articulación individualmente) o en modo cartesiano (trasladando o rotando el efector final en un sistema de coordenadas XYZ).
 
 <p align="center">
-  <a href="url5"><img src="Images/TeachPendant.jpg" height="300"></a>
+  <img src="Images/TeachPendant.jpg" height="300">
 </p>
 
 El procedimiento es el siguiente
@@ -72,7 +72,7 @@ El procedimiento es el siguiente
 </ul>
 
 <p align="center">
-  <a href="url6"><img src="Images/BotonesTeachPendant.jpg" width="200"></a>
+  <img src="Images/BotonesTeachPendant.jpg" width="200">
 </p>
 
 ## Principales Funcionalidades de RoboDK
@@ -87,7 +87,7 @@ Otra característica es que a la hora de realizar la simulación en tiempo real 
 
 ### Conexión de RoboDK con el manipulador
 
-Para realizar la conexión con el robot, se debe acceder en la barra de herramientas a la opción "Conectar" y posteriormente dar click a "Conectar con el robot" tal como se evidencia en la siguiente imagen:
+Para realizar la conexión con el robot, se debe cambiar la configuración en el Pendant a REMOTE con la perilla ubicada en la parte superior izquierda del Pendant. Posteriormente, se debe acceder en la barra de herramientas a la opción "Conectar" y posteriormente dar click a "Conectar con el robot" tal como se evidencia en la siguiente imagen:
 
 <p align="center">
   <img src="Images/conectar1.png" width="500">
@@ -102,7 +102,7 @@ Posteriormente se abrirá una ventanta como la siguiente:
 En esta ventanta se debe asignar la direccion IP del robot y el puerto de conexión y posteriormente realizar un ping para comprobar si es posible realizar la conexión. Posteriormente se debe dar click en conectar para establecer la conexión con el robot. De esta manera se debe observar algo como la imagen que aparece a continuación:
 
 <p align="center">
-  <img src="Images/conectar4.png" width="500">
+  <img src="Images/conectar4.png" width="200">
 </p>
 
 Finalmente, para ejecutar el programa en el robot se debe hacer click derecho sobre el archivo del script y selecciónar la opción "Ejecutar en el robot":
