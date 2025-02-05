@@ -90,25 +90,25 @@ Otra característica es que a la hora de realizar la simulación en tiempo real 
 Para realizar la conexión con el robot, se debe acceder en la barra de herramientas a la opción "Conectar" y posteriormente dar click a "Conectar con el robot" tal como se evidencia en la siguiente imagen:
 
 <p align="center">
-  <a href="url6"><img src="Images/conectar1.png" width="500"></a>
+  <img src="Images/conectar1.png" width="500">
 </p>
 
 Posteriormente se abrirá una ventanta como la siguiente:
 
 <p align="center">
-  <a href="url6"><img src="Images/conectar2.png" width="500"></a>
+  <img src="Images/conectar2.png" width="500">
 </p>
 
 En esta ventanta se debe asignar la direccion IP del robot y el puerto de conexión y posteriormente realizar un ping para comprobar si es posible realizar la conexión. Posteriormente se debe dar click en conectar para establecer la conexión con el robot. De esta manera se debe observar algo como la imagen que aparece a continuación:
 
 <p align="center">
-  <a href="url6"><img src="Images/conectar4.png" width="500"></a>
+  <img src="Images/conectar4.png" width="500">
 </p>
 
 Finalmente, para ejecutar el programa en el robot se debe hacer click derecho sobre el archivo del script y selecciónar la opción "Ejecutar en el robot":
 
 <p align="center">
-  <a href="url6"><img src="Images/conectar3.png" width="500"></a>
+  <img src="Images/conectar3.png" width="500">
 </p>
 
 ## Anlálisis Comparativo entre RoboDK y Robot Studio
