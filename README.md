@@ -75,8 +75,57 @@ El procedimiento es el siguiente
   <a href="url6"><img src="Images/BotonesTeachPendant.jpg" width="200"></a>
 </p>
 
+## Principales Funcionalidades de RoboDK
 
+El software RoboDK en cuanto a sus funcionalidades cuenta con una librería de gran cantidad de modelos de brazos robóticos y manipuladores de los principales fabricantes conocidos a nivel mundial. Estos robots se pueden seleccionar según parámetros técnicos como capacidad de carga, alcance, grados de libertad, precisión y dimensiones físicas. Además, incluye componentes preconfigurados para otras aplicaciones en el campo de la robótica, como cintas transportadoras, herramientas especializadas, cámaras, estructuras de seguridad y soportes, disponibles para su integración inmediata en entornos virtuales.  
 
+Otra funcionalidad permite la importación de diseños 3D más personalizados mediante archivos CAD, facilitando la adaptación de simulaciones a requisitos específicos de herramientas, piezas o entornos de trabajo. La interfaz de RoboDK permite la programación mediante una secuenciación visual de movimientos (lineales, articulares, circulares), gestión de tiempos de espera y activación de señales digitales, de manera que es posible generar y simular rutinas complejas sin necesidad de código avanzado.  
+
+Para aplicaciones más especializadas, se cuenta con una API para programación en Python, que permite desarrollar scripts para detalles más precisos, automatizar tareas o implementar lógicas operativas avanzadas. Adicionalmente, la programación fuera de línea posibilita la validación virtual de los manipuladores robóticos, incluyendo análisis de colisiones, optimización de trayectorias y ajuste de parámetros, antes de su implementación física. Además de esto, se tienen los post-procesadores integrados que garantizan la conversión automática de programas a lenguajes nativos de robots industriales (KUKA, ABB, Fanuc, entre otros), además de generar código compatible con Python, C++, C# y MATLAB.  
+
+Otra característica es que a la hora de realizar la simulación en tiempo real es posible probar y validar programas creados bajo condiciones virtuales, esto permite comprobar la precisión, seguridad y eficiencia operativa. A su vez, la plataforma puede integrar un apartado para conectar sensores, sistemas de visión artificial y dispositivos de adquisición de datos, para poder representar escenarios operativos más realistas. Finalmente, RoboDK es compatible con sistemas Windows, Linux y macOS, esto permite su adaptabilidad en entornos multidisciplinarios.
+
+## Anlálisis Comparativo entre RoboDK y Robot Studio
+
+<table>
+  <tr>
+    <th>Característica</th>
+    <th>Robot Studio</th>
+    <th>RoboDK</th>
+  </tr>
+  <tr>
+    <td rowspan="4">Diferencias</td>
+    <td>Está diseñado exclusivamente para robots ABB, en donde se integran a profundidad los controladores y funcionalidades específicas de ABB</td>
+    <td>Soporta más de 50 marcas de robots, incluyendo modelos personalizados. Su enfoque es multi-marca y flexible</td>
+  </tr>
+  <tr>
+    <td>Utiliza RAPID</td>
+    <td>Basado en Python y ofrece una API para personalización</td>
+  </tr>
+  <tr>
+    <td>Proporciona simulación de alta fidelidad para ABB, permite replicar movimientos reales con precisión en velocidad, aceleración y tiempos de ciclo</td>
+    <td>Ofrece simulación funcional para múltiples marcas, pero con limitaciones en precisión para movimientos complejos. Por otra parte, incluye módulos como RRS para mejorar la simulación específica de ABB</td>
+  </tr>
+  <tr>
+    <td>Interfaz gráfica potente pero compleja, orientada a usuarios avanzados familiarizados con ABB</td>
+    <td>Interfaz intuitiva y gráfica. Permite programar robots arrastrando objetivos en 3D o importando archivos G-code, optimizando trayectorias automáticamente para evitar singularidades</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Usos</td>
+    <td>Programación avanzada de robots ABB</td>
+    <td>Programación fuera de línea para múltiples marcas de robots</td>
+  </tr>
+  <tr>
+    <td>Simulación detallada para optimizar tiempos de ciclo en entornos industriales ABB</td>
+    <td>Aplicaciones con conversión de G-code</td>
+  </tr>
+  <tr>
+    <td>Formación técnica especializada en ABB</td>
+    <td>Prototipado rápido y proyectos educativos con soporte para Python</td>
+  </tr>
+</table>
+
+Si bien RoboDK es excelente para la planificación de trayectorias y simulaciones básicas, no sustituye por completo a RobotStudio cuando se requieren todas las características y las propiedades específicas del entorno ABB, especialmente en aplicaciones que dependen de funciones avanzadas propias de ABB. Por otro lado, la versatilidad de RoboDK permiten que sea una opción muy adecuada para ciertos ámbitos que no dependen exclusivamente de robots ABB.
 
 
 
