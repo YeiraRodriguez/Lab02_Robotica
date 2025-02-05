@@ -86,6 +86,31 @@ Para aplicaciones más especializadas, se cuenta con una API para programación 
 Otra característica es que a la hora de realizar la simulación en tiempo real es posible probar y validar programas creados bajo condiciones virtuales, esto permite comprobar la precisión, seguridad y eficiencia operativa. A su vez, la plataforma puede integrar un apartado para conectar sensores, sistemas de visión artificial y dispositivos de adquisición de datos, para poder representar escenarios operativos más realistas. Finalmente, RoboDK es compatible con sistemas Windows, Linux y macOS, esto permite su adaptabilidad en entornos multidisciplinarios.
 
 ### Conexión de RoboDK con el manipulador
+
+Para realizar la conexión con el robot, se debe acceder en la barra de herramientas a la opción "Conectar" y posteriormente dar click a "Conectar con el robot" tal como se evidencia en la siguiente imagen:
+
+<p align="center">
+  <a href="url6"><img src="Images/conectar1.png" width="500"></a>
+</p>
+
+Posteriormente se abrirá una ventanta como la siguiente:
+
+<p align="center">
+  <a href="url6"><img src="Images/conectar2.png" width="500"></a>
+</p>
+
+En esta ventanta se debe asignar la direccion IP del robot y el puerto de conexión y posteriormente realizar un ping para comprobar si es posible realizar la conexión. Posteriormente se debe dar click en conectar para establecer la conexión con el robot. De esta manera se debe observar algo como la imagen que aparece a continuación:
+
+<p align="center">
+  <a href="url6"><img src="Images/conectar4.png" width="500"></a>
+</p>
+
+Finalmente, para ejecutar el programa en el robot se debe hacer click derecho sobre el archivo del script y selecciónar la opción "Ejecutar en el robot":
+
+<p align="center">
+  <a href="url6"><img src="Images/conectar3.png" width="500"></a>
+</p>
+
 ## Anlálisis Comparativo entre RoboDK y Robot Studio
 
 <table>
