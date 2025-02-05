@@ -85,6 +85,7 @@ Para aplicaciones más especializadas, se cuenta con una API para programación 
 
 Otra característica es que a la hora de realizar la simulación en tiempo real es posible probar y validar programas creados bajo condiciones virtuales, esto permite comprobar la precisión, seguridad y eficiencia operativa. A su vez, la plataforma puede integrar un apartado para conectar sensores, sistemas de visión artificial y dispositivos de adquisición de datos, para poder representar escenarios operativos más realistas. Finalmente, RoboDK es compatible con sistemas Windows, Linux y macOS, esto permite su adaptabilidad en entornos multidisciplinarios.
 
+### Conexión de RoboDK con el manipulador
 ## Anlálisis Comparativo entre RoboDK y Robot Studio
 
 <table>
