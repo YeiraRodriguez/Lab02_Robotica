@@ -153,5 +153,15 @@ Finalmente, para ejecutar el programa en el robot se debe hacer click derecho so
 
 Si bien RoboDK es excelente para la planificación de trayectorias y simulaciones básicas, no sustituye por completo a RobotStudio cuando se requieren todas las características y las propiedades específicas del entorno ABB, especialmente en aplicaciones que dependen de funciones avanzadas propias de ABB. Por otro lado, la versatilidad de RoboDK permiten que sea una opción muy adecuada para ciertos ámbitos que no dependen exclusivamente de robots ABB.
 
+## Código de la trayectoria
 
+ En el presente en enlace se encuentra el [código de la trayectoria](program_files/Polar.py) realizado en Python
+
+## Video de Simulación y de la rutina en el laboratorio
+
+A continuación se pueden evidenciar los videos de la simulación y de el desarrollo en el laboratorio:
+
+
+[Video de la simulación](https://drive.google.com/file/d/1VrglvvyAawwsm8befeIBHJyxm1ZkYjvK/view?usp=sharing).
+[Video en el laboratorio](https://drive.google.com/file/d/1F5bN7av1YCZhOF-V54-bXsQOziJG-X_8/view?usp=sharing) 
 
