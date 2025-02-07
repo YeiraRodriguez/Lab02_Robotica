@@ -105,6 +105,8 @@ En esta ventanta se debe asignar la direccion IP del robot y el puerto de conexi
   <img src="Images/conectar4.png" width="200">
 </p>
 
+Tomado de [RoboDK Web Page](https://robodk.com/doc/es/Robot-Calibration-LaserTracker-Conectar-robot.html).
+
 Finalmente, para ejecutar el programa en el robot se debe hacer click derecho sobre el archivo del script y selecciónar la opción "Ejecutar en el robot":
 
 <p align="center">
@@ -163,5 +165,6 @@ A continuación se pueden evidenciar los videos de la simulación y de el desarr
 
 
 [Video de la simulación](https://drive.google.com/file/d/1VrglvvyAawwsm8befeIBHJyxm1ZkYjvK/view?usp=sharing).
-[Video en el laboratorio](https://drive.google.com/file/d/1F5bN7av1YCZhOF-V54-bXsQOziJG-X_8/view?usp=sharing) 
+
+[Video en el laboratorio](https://drive.google.com/file/d/1F5bN7av1YCZhOF-V54-bXsQOziJG-X_8/view?usp=sharing). 
 
