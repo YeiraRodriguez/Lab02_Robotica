@@ -44,13 +44,25 @@ La información anteriormente mostrada fue extraida de :
 
 ## Posiciones Home1 y Home2 del Motoman MH6.
 
-Las configuraciones de Home1 y Home2 son posiciones de inicio con ligeras variaciones. En el primero se dispone del robot completamente extendido, es decir, los ángulos de sus articulaciones son todas cero. Por otro lado, para home2 se encuentra un cambio en las articulaciones 2 y 3 con ángulos de 45° y -45° respectivamente. Esto permite una posición más compacta del robot. 
+Las configuraciones de Home1 y Home2 son posiciones de inicio. En la primera se dispone del robot completamente extendido mientras que para home2 se encuentra el robot recogido. Esto permite una posición más compacta del robot. 
 
 <p align="center">
   <img src="Images/PoscionesHome.jpg" width="200">
 </p>
 
-La posición dependerá de la situación, en general se prefiere la segunda por la reducción del espacio ocupado y los riesgos de colisión. La primera posición es más usada para casos de mantenimiento, es decir, es útil calibraciones y diagnósticos iniciales.
+La posición dependerá de la situación, en general se prefiere la segunda por la reducción del espacio ocupado y los riesgos de colisión. La primera posición es más usada para casos de mantenimiento, es decir, es útil para calibraciones y diagnósticos iniciales.
+
+### Posición Home 1
+
+<p align="center">
+  <img src="Images/PoscionHome1.jpg" width="200">
+</p>
+
+### Posición Home 2
+
+<p align="center">
+  <img src="Images/PoscionHome2.jpg" width="200">
+</p>
 
 ## Procedimiento movimientos manuales
 
@@ -74,6 +86,24 @@ El procedimiento es el siguiente
 <p align="center">
   <img src="Images/BotonesTeachPendant.jpg" width="200">
 </p>
+
+## Velocidades
+
+<p align="center">
+  <img src="Images/BotonVelocidad.jpg" width="200">
+</p>
+
+El operador puede cambiar la velocidad mediante el botón "Speed" y para identificar el nivel actual en la interfaz del robot Motoman MH6, se busca el símbolo en la parte superior.
+
+<p align="center">
+  <img src="Images/SimbolosVelocidades.jpg" width="200">
+</p>
+
+Los modos de velocidad son los siguientes
+* Inching: Este símbolo representa la velocidad más baja, utilizada para movimientos extremadamente precisos y delicados. Se usa para ajustar la posición del robot en incrementos muy pequeños.
+* Low Speed: Este símbolo indica una velocidad baja, adecuada para movimientos que requieren precisión pero no son tan delicados como los movimientos de "Inching".
+* Medium Speed: Este símbolo representa la velocidad media, utilizada para movimientos generales de manipulación y posicionamiento. Es un buen equilibrio entre velocidad y precisión.
+* High Speed: Este símbolo indica la velocidad más alta, utilizada para movimientos rápidos de posicionamiento o desplazamiento donde la velocidad es más importante que la precisión.
 
 ## Principales Funcionalidades de RoboDK
 
