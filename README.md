@@ -55,13 +55,13 @@ La posición dependerá de la situación, en general se prefiere la segunda por 
 ### Posición Home 1
 
 <p align="center">
-  <img src="Images/PoscionHome1.jpg" width="200">
+  <img src="Images/PoscionHome1.jpeg" width="200">
 </p>
 
 ### Posición Home 2
 
 <p align="center">
-  <img src="Images/PoscionHome2.jpg" width="200">
+  <img src="Images/PoscionHome2.jpeg" width="200">
 </p>
 
 ## Procedimiento movimientos manuales
@@ -96,7 +96,7 @@ El procedimiento es el siguiente
 El operador puede cambiar la velocidad mediante el botón "Speed" y para identificar el nivel actual en la interfaz del robot Motoman MH6, se busca el símbolo en la parte superior.
 
 <p align="center">
-  <img src="Images/SimbolosVelocidades.jpg" width="200">
+  <img src="Images/SimbolosVelocidades.png" width="200">
 </p>
 
 Los modos de velocidad son los siguientes
