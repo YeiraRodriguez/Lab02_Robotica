@@ -55,13 +55,13 @@ La posición dependerá de la situación, en general se prefiere la segunda por 
 ### Posición Home 1
 
 <p align="center">
-  <img src="Images/PoscionHome1.jpeg" width="200">
+  <img src="Images/PosicionHome1.jpeg" width="200">
 </p>
 
 ### Posición Home 2
 
 <p align="center">
-  <img src="Images/PoscionHome2.jpeg" width="200">
+  <img src="Images/PosicionHome2.jpeg" width="200">
 </p>
 
 ## Procedimiento movimientos manuales
